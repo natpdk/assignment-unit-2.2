@@ -33,15 +33,14 @@ if (number >= 2) {
 
 // 1.
 // DESCRIPTION
-// 
-// 
-//
-//
-//
-//
+// We create a variable for 'name' and have set the value to 'Dane'.
+// Then we created a conditional that works as follows:
+// If the value of the variable 'name' is actually an exact match for 'Mary', then the console.log will display 'Hi, Mary!'
+// If the value of the variable 'name' is any other value aside from 'Mary, then the console.log will display 'How do you do?'
+// Since we have already set the value to 'Dane', we know our result will land in the second category since it is a different value than 'Mary'.
 //
 // OUTCOME:
-//
+// console.log = 'How do you do?'
 
 // CODE:
 /*
@@ -59,12 +58,14 @@ if (name === 'Mary') {
 
 // 2.
 // DESCRIPTION:
-// 
-// 
-// 
+// First we create a variable called 'secret', leaving its value undefined (to be defined by the variable).
+// Then a second variable is create, 'code', and it has  value set of '123'. 
+// The conidtional is then made to define the value of 'secret' depending on what is put in.
+// The first part of the conditional is that if the code is an exact match of '123', the secret's value will be 'super' and the code will be multiplied by 2.
+// The second part says that if the code's value is greater than 250, then the value of 'secret' will be 'duper'.
 //
 // OUTCOME:
-//
+// console.log = 'super'
 
 // CODE:
 /*
@@ -89,12 +90,17 @@ console.log(secret)
 
 // 3.
 // DESCRIPTION
-// 
-// 
-// 
+// The first variable is created (isStudent) and given the boolean value 'True'.
+// The second variable is created (age) and given the value '34'.
+// The third variable is created (zip) and given the value '55407'.
+// Then the conditional is made with 4 possible options that create different outcomes. They go as follows:
+// If the isStudent value is true, AND the zip code is greater than 80000, then the console.log will be 'You're a student on the West Coast!'
+// If the isStudent value is false OR the age is less than 30, then the console.log will be 'What are your hobbies?'
+// If the isStudent value is true, the console.log will be 'Welcome to Prime!'
+// And finally, if the values don't fall into any of those, then the console.log will be 'How about the weather?'
 //
 // OUTCOME:
-//
+// console.log = 'Welcome to Prime!'
 
 // CODE:
 /*
