@@ -161,10 +161,12 @@ if (number >= 2) {
 
 // CODE:
 /*
+//FIX: description says colorONe is 'blue' and colorTwo is 'red'. Switch these two values to match the description.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//FIX: this will only change colorOne to purple, there should be (colorTwo = 'purple') added so that both colors are turned to purple.
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -184,6 +186,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+FIX: the description uses an 'and' statement, so if the temp is greater than 39 AND if the time is equal to or greater than 4. Replace (|| (which mean 'or')) with (&&)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -203,6 +206,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX: This is saying that if the minAge is less than age of the person, they can't enter, but we mean the opposite. And if the age equals the minAge, then they would be able to enter. 
+// so change (minAge <= age) for (age < minAge), that way if the age is under 21, the result is 'no entry'.
 if(minAge <= age) {
   console.log('no entry');
 } else {
